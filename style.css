@@ -1,10 +1,23 @@
 .botao{
     border: 1px solid #999999;
-    height: 26px;
+    height: 30px;
     padding: 5px 15px;
-    width: 90px;
-    font-size: 16px;
-    display: inline-block;
-    
+    width: 100px;
+    font-size: 15px; 
+    color: #ff8e7f;
 
+}
+.caixa{
+    background-color: tomato;
+    width: 250px;
+    height: 25px;
+    font-size: 20px ;
+
+}
+.caixa-com-padding{
+    background-color: lightblue;
+    padding: 0 25px;
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
 }
