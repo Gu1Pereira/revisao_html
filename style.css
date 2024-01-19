@@ -1,10 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
 .botao{
-    border: 1px solid #999999;
+    border: 1px solid hsl(0, 82%, 63%);
     height: 30px;
     padding: 5px 15px;
     width: 100px;
     font-size: 15px; 
-    color: #ff8e7f;
+    color: hsl(7, 84%, 66%);
 
 }
 .caixa{
@@ -20,4 +24,44 @@
     width: 250px;
     height: 25px;
     font-size: 20px;
+}
+.faixa{
+    border: 1px solid #000000;
+    height: 100px;
+    margin: 40px auto;
+    width: 400px;
+   
+}
+.faixa h1{
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #990000;
+    color: white;
+    left: -10px;
+    padding: 5px 0;
+    position: relative;
+    width: 420px;
+    margin-top: 13px ;
+    
+    
+
+}
+.faixa h1::before{
+    border-color: transparent #7c0000 #7c0000 transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: -10px;
+
+}
+.faixa h1::after{
+    border-color: transparent transparent #7c0000 #7c0000;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    right: 1px;
+    position: absolute;
+    top: -10px;
 }
