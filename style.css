@@ -65,3 +65,46 @@
     position: absolute;
     top: -10px;
 }
+.ajuda{
+    background-color: #d34036;
+    border: 1px solid #d34036;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.senha{
+    background-color: #8f60e6;
+    border: 1px solid #8f60e6;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ajuda::before{
+    border-color: transparent #d34036 transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+
+}
+.senha::before{
+    border-color: transparent #8f60e6 transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+}
